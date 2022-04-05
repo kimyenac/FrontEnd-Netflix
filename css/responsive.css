@@ -1,0 +1,138 @@
+@media (max-width : 768px) {
+    body {
+        font-size: 16px;
+    }
+    .logo img {
+        width: 90px;
+    }
+    header {
+        padding: 20px 20px;
+    }
+    .signin button {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+    
+    /* Common CSS */
+    section {
+        padding: 20px;
+    }
+    
+    /* Section : Welcome */
+    .welcome {
+        height: 70vh;
+    }
+    
+    /* Heading */
+    .heading {
+        width: 100%;
+    }
+    .heading h1 {
+        font-size: 1.75rem;
+    }
+    .heading h5 {
+        margin-top: 8px;
+        font-size: 1.125rem;
+    }
+    .heading p {
+        font-size: 18px;
+    }
+    
+    /* Getstarted */
+    .getstarted {
+        width: 93%;
+    }
+    .getstarted input[type=email] {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .getstarted input[type=email]:focus + span {
+        transform: translateY(-10px);
+    }
+    .getstarted input[type=email],
+    .getstarted button {
+        height: 50px;
+    }
+    .getstarted input[type=email]:focus + span {
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .getstarted input[type=email] {
+        padding-top: 10px;
+    }
+    .getstarted button {
+        width: 130px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    
+    /* Section : enjoy_pg, Download, Watch, Create */
+    .enjoy_pg, .download, .watch, .create {
+        height: auto;
+    }
+    .inner {
+        width: 100%;
+        position: static;
+        transform: translate(0);
+    }
+    
+    /* change Order */
+    .download .inner,
+    .create .inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .download .inner .desc,
+    .create .inner .desc {
+        order: 1;
+    }
+    .download .inner .preview,
+    .create .inner .preview {
+        order: 2;
+    }
+    .desc, .preview {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .preview img {
+        width: 100%;
+        height: auto;
+    }
+    .desc h2 {
+        font-size: 30px;
+    }
+    
+    /* Section : FAQ */
+    .faq {
+        padding: 80px 20px;
+    }
+    .faq-inner {
+        width: 100%;
+    }
+    .faq-inner h1 {
+        font-size: 30px;
+        line-height: 1.32em;
+    }
+    input[name=faq-item] + label span {
+        font-size: 26px;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 50px 20px;
+        text-align: center;
+    }
+    .footer-inner {
+        width: 100%;
+    }
+    .items {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    
+    /* Login Modal */
+    .login {
+        width: 100%;
+    }
+}
